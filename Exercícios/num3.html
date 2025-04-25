@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="num3.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Somar</h1>
+    </header>
+
+
+
+
+
+    <p>Esse site irá tratar sobre a soma de dois itens</p>
+
+    <button onclick="Ola()"> Somar dois números </button>
+
+    <script>
+     
+        function Ola() {
+            const a = parseFloat(prompt("Digite um número: "));
+            const b = parseFloat(prompt("Digite seu número: "))
+            if (!isNaN(a) && !isNaN(b)) {
+            const soma = a + b;
+            alert("O Resultado da soma é: " + soma);
+
+        } 
+        }
+
+       
+    </script>
+
+    <br>
+    <br>
+
+    <footer>
+
+        &copy;2025 Site de Mateus Diolinda do Amaral. Todos os direitos reservados.
+
+    </footer>
+
+
+</body>
+
+</html>
