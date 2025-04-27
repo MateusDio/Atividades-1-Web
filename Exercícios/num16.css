@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: #F3F3F3;
+    background: linear-gradient(#8b32f4,#ffffff);
     color: #ffffff;
     text-align: center;
     justify-content: center;
